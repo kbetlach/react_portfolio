@@ -13,11 +13,11 @@ function Index() {
     return (
 <body>
 
+<br />
+<br />
+
     <div style={styles.containerStyle} className="container animated fadeIn">
 
-<br />
-<br />
-<br />
 <br />
 <br />
 
@@ -40,15 +40,6 @@ function Index() {
             </div>
 
     </div>
-
-    <div className="row">
-            <div className="col-md-12">
-                <div className="footer-margin">
-                    <footer className="card-footer bg-#666666 footer-font-style text-#ffffff footer-position">2020 - Kyle Betlach ©
-                    </footer>
-                </div>
-            </div>
-        </div>   
 </body>
     )
     }

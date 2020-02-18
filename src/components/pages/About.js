@@ -16,7 +16,7 @@ function About() {
 
         <div className="row">
             <div className="col-md-12">
-                <img src="../../assets/images/kyle.jpg" className="img-responsive" alt="headshot" id="kyle"></img>
+                <img src={require("../../assets/images/kyle.jpg")} className="img-responsive" alt="kyle headshot" id="kyle"></img>
                 <p>Hi! Thank you for stopping by my portfolio! My name is Kyle Betlach, and I'm currently a student enrolled in the University of Minnesota computer coding bootcamp. I have bachelor's degrees in anthropology and religious studies from Hamline Unversity, 
                     and have spent my working life bouncing around between the natural foods industry, archaeology, and board game distribution. I decided to change direction and pursue full stack development.
                     I chose to get into coding as a way to pursue my interest in technology, in addition to having an outlet to flex my creative muscle. The bootcamp has given me a strong proficiency in HTML5, CSS, JavaScript, the MERN stack, and responsive web design.
@@ -32,13 +32,6 @@ function About() {
             </div>
         </div>
     </div>
-
-<br/>
-
-    <div className="footer-margin">
-        <footer className="card-footer bg-#666666 footer-font-style text-#ffffff footer-position">2020 - Kyle Betlach ©
-            </footer>
-    </div>   
 </body>
 )
 }

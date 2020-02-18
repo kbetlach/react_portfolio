@@ -22,7 +22,7 @@ function Gallery() {
 <br/>
 
     <div className="row">
-        <div className="col-md-6"><img src="assets/images/ffdb.jpg" alt="gallery-images" className="responsive" id="ffdb"></img>
+        <div className="col-md-6"><img src={require("../../assets/images/ffdb.jpg")} alt="gallery-images" className="responsive" id="ffdb"></img>
             <div className="label1">Fantasy Football Database</div>
             <div className="row">
             <a href="https://jacobrosenbaum.github.io/FantasyFootball/" target="_blank" rel="noopener noreferrer"><div className="col-md-6 label2"><i className="fas fa-external-link-alt"></i></div></a>
@@ -30,7 +30,7 @@ function Gallery() {
             </div>
         </div>
 
-        <div className="col-md-6"><img src="assets/images/msts.jpg" alt="gallery-images" className="responsive" id="msts"></img>
+        <div className="col-md-6"><img src={require("../../assets/images/msts.jpg")} alt="gallery-images" className="responsive" id="msts"></img>
             <div className="label1">Mantis Shrimp Tutoring Service</div>
             <div className="row">
             <a href="https://mantisshrimp.herokuapp.com/" target="_blank" rel="noopener noreferrer"><div className="col-md-6 label2"><i className="fas fa-external-link-alt"></i></div></a>
@@ -42,7 +42,7 @@ function Gallery() {
 <br/>
 
     <div className="row">
-        <div className="col-md-6"><img src="assets/images/weather.jpg" alt="gallery-images" className="responsive" id="weather"></img>
+        <div className="col-md-6"><img src={require("../../assets/images/weather.jpg")} alt="gallery-images" className="responsive" id="weather"></img>
             <div className="label1">Weather Dashboard</div>
             <div className="row">
             <a href="https://kbetlach.github.io/weather_dashboard/" target="_blank" rel="noopener noreferrer"><div className="col-md-6 label2"><i className="fas fa-external-link-alt"></i></div></a>
@@ -50,7 +50,7 @@ function Gallery() {
             </div>
         </div>
 
-        <div className="col-md-6"><img src="assets/images/lotr.jpg" alt="gallery-images" className="responsive" id="lotr"></img>
+        <div className="col-md-6"><img src={require("../../assets/images/lotr.jpg")} alt="gallery-images" className="responsive" id="lotr"></img>
             <div className="label1">Lord of the Rings Trivia Quiz</div>
             <div className="row">
                 <a href="https://kbetlach.github.io/lotr_quiz/" target="_blank" rel="noopener noreferrer"><div className="col-md-6 label2"><i className="fas fa-external-link-alt"></i></div></a>
@@ -60,7 +60,7 @@ function Gallery() {
     </div>
 
     <div className="row">
-        <div className="col-md-6"><img src="assets/images/burger.jpg" alt="gallery-images" className="responsive" id="burger"></img>
+        <div className="col-md-6"><img src={require("../../assets/images/burger.jpg")} alt="gallery-images" className="responsive" id="burger"></img>
             <div className="label1">Eat-Da-Burger!</div>
             <div className="row">
                 <a href="http://eat-da-burger-kb.herokuapp.com/" target="_blank" rel="noopener noreferrer"><div className="col-md-6 label2"><i className="fas fa-external-link-alt"></i></div></a>
@@ -68,7 +68,7 @@ function Gallery() {
             </div>
         </div>
 
-        <div className="col-md-6"><img src="assets/images/password.jpg" alt="gallery-images" className="responsive" id="password"></img>
+        <div className="col-md-6"><img src={require("../../assets/images/password.jpg")} alt="gallery-images" className="responsive" id="password"></img>
             <div className="label1">Password Generator</div>
             <div className="row">
                 <a href="https://kbetlach.github.io/password_generator/" target="_blank" rel="noopener noreferrer"><div className="col-md-6 label2"><i className="fas fa-external-link-alt"></i></div></a>
@@ -79,17 +79,7 @@ function Gallery() {
     </div>
 
 </div>
-
-<br/>
-
-<div className="row">
-    <div className="col-md-12">
-        <div className="footer-margin">
-            <footer class="card-footer bg-#666666 footer-font-style text-#ffffff footer-position">2020 - Kyle Betlach ©
-            </footer>
-        </div>
-    </div>
-</div>    
+ 
 </body>
 )
 }
