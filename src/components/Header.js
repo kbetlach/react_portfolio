@@ -8,7 +8,7 @@ function Header() {
     <ul className="nav nav-tabs">
 
         <Link to="/" className={window.location.pathname === "/"}>
-        <a class="navbar-brand" id="brand" href="index.html"> Kyle Betlach</a> 
+        <a className="navbar-brand" id="brand" href="index"> Kyle Betlach</a> 
         </Link>
 
       <li className="nav-item">
@@ -29,9 +29,11 @@ function Header() {
         </Link>
       </li>
 
-      <a href="https://www.linkedin.com/in/kyle-betlach" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in" id="linked"></i></a>
-      <a href="https://github.com/kbetlach" target="_blank" rel="noopener noreferrer"><i class="fab fa-github" id="git"></i></a>
-     
+    <li className="nav-item">
+      <a href="https://www.linkedin.com/in/kyle-betlach" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin-in" id="linked"></i></a>
+      <a href="https://github.com/kbetlach" target="_blank" rel="noopener noreferrer"><i className="fab fa-github" id="git"></i></a>
+    </li>
+
     </ul>
     
   );

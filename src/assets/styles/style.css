@@ -57,13 +57,6 @@ h3 {
     color: darkslategray;
 }
 
-header {
-    width: 100%;
-    background-color :snow;
-    border-bottom: 1px solid #cccccc;
-    height: 75px;
-}
-
 .nav-item {
     position: relative;
     left: 550px;
@@ -136,11 +129,6 @@ header {
     color: #ffffff;
 }
 
-.submit {
-    background-color: darkslategray;
-    color: #ffffff;
-}
-
 #linked {
     position: relative;
     left: 600px;
@@ -191,61 +179,109 @@ header {
     border-radius: 25px;
 }
 
-/*MEDIA QUERIES*/
+ul {
+    background-color: #ffffff;
+}
+
+/*MEDIA QUERIES ==================================================*/
 
 @media (max-width: 1200px) {
-    .navbar-brand {
-        margin-left: 100px;
+    .container {
+        width: 1175px;
+    }
+
+    #brand {
+        margin-left: 50px;
+    }
+
+    .nav-item {
+        position: relative;
+        left: 275px;
+    }
+
+    #git, #linked {
+        position: relative;
+        left: 25px;
+    }
+
+    ul {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .label2 {
+        left: 150px;
     }
 }
 
-@media (max-width: 980px) {
-
-    .navbar-brand { 
-        margin-left: 50px;
-    }
-    
-    .container {
-        width: 550px;
-        margin-left: 50px;
+@media (max-width: 1024px) {
+    #brand {
+        margin-left: 100px;
     }
 
-    #kyle {
-        padding: 10px 0px 10px 0px;
-        height: 225px;
+    .nav-item {
+       position: relative;
+       left: 75px;
+       text-align: center;
     }
 
-    .label {
-        font-size: 12px;
-        bottom: 50px;
+    ul {
+        width: 100%;
+        justify-content: center;
     }
 
-    .responsive {
-       width: 100%;
-       height: auto;
-    }
-
-    .nav-link {
+    #git, #linked {
         position: relative;
-        left: 200px;
+        left: 40px;
+    }
+}
+
+@media (max-width: 900px) {
+
+    .container {
+        width: 885px;
+    }
+
+    #brand {
+        margin-left: 95px;
+    }
+
+    .nav-item {
+       position: relative;
+       left: 20px;
+       text-align: center;
+    }
+
+    ul {
+        width: 100%;
+        justify-content: center;
+    }
+
+    #git, #linked {
+        position: relative;
+        left: 10px;
     }
 }
 
 @media (max-width: 768px) {
-
-    .navbar-brand {
-        margin-left: 30px;
-    }
 
     .container {
         margin-left: 25px;
         width: 760px;
     }
 
-    .nav-link {
+    #brand {
+        margin-left: 30px;
+    }
+
+    .nav-item {
         position: relative;
-        left: 175px;
-        font-size: 14px;
+        left: 5px;
+    }
+
+    #git, #linked {
+        position: relative;
+        left: 0px;
     }
 
     #kyle {
@@ -259,38 +295,30 @@ header {
 
     .label2 {
         width: 100px;
-        left: 150px;
+        left: 100px;
     }
 }
 
 @media (max-width: 698px) {
-    .navbar-brand {
-        width: 100%;
-        text-align: center;
-        margin: 0 auto;
-    }
 
     .container {
-        margin-top: 50px;
-        margin-left: 30px;
+        width: 690px;
+        margin-left: 70px;
     }
 
-    .nav-link {
-        margin-top: 3px;
-        background-color: #ffffff;
-        margin: auto;
-        justify-content: center;
-    }
-
-    ul {
-        width: 100%;
-        justify-content: center;
-        background-color: #ffffff;
+    #brand {
+        margin-left: 25px;
+        width: 690px;
+        text-align: center;
     }
 
     .label {
         bottom: 75px;
         font-size: 24px;
+    }
+
+    .label2 {
+        left: 150px;
     }
 }
 
@@ -316,7 +344,6 @@ header {
     ul {
         width: 100%;
         justify-content: center;
-        background-color: #ffffff;
     }
 
     .label {
@@ -328,13 +355,20 @@ header {
 
 @media (max-width: 414px) {
     .container {
-        width: 390px;
+        width: 395px;
         margin-left: 10px;
-        margin-top: 65px;
+    }
+
+    #brand {
+        width: 400px;
     }
 
     .nav-item {
-        width: 75px;
+        width: 80px;
+    }
+
+    #git, #linked {
+        left: 10px;
     }
 
     .label2 {
@@ -376,17 +410,14 @@ header {
     }
 }
 
-/*MEDIA QUERIES*/
 @media (max-width: 375px) {
 
     .container {
-        width: 360px;
-        margin-left: 8px;
-        margin-top: 65px;
+        width: 355px;
     }
 
     .nav-item {
-        width: 75px;
+        width: 80px;
     }
 
     .label2 {
@@ -403,12 +434,10 @@ header {
 
     .container {
         width: 345px;
-        margin-left: 10px;
-        margin-top: 60px;
     }
 
     .nav-item {
-        width: 75px;
+        width: 80px;
     }
 
     .label2 {
@@ -416,16 +445,8 @@ header {
         left: 70px;
     }
 
-    #header-about {
-        text-align: center;
-    }
-
-    #header-contact {
-        text-align: center;
-    }
-
-    #header-portfolio {
-        text-align: center;
+    #brand {
+        width: 360px;
     }
 }
 
@@ -433,12 +454,14 @@ header {
 
     .container {
         width: 300px;
-        margin-left: 10px;
-        margin-top: 60px;
+    }
+
+    #brand {
+        width: 320px;
     }
 
     .nav-item {
-        width: 65px;
+        width: 80px;
     }
 
     .label2 {

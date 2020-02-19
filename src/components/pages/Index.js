@@ -6,7 +6,8 @@ function Index() {
 
     const styles = {
         containerStyle: {
-          background: "transparent"
+          background: "transparent",
+          border: "hidden"
         }
       };
 
