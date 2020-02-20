@@ -2,6 +2,7 @@ import React from "react";
 import "../../assets/styles/style.css";
 import "../../assets/styles/animate.css";
 
+
 function Index() {
 
     const styles = {

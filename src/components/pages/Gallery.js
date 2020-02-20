@@ -1,11 +1,13 @@
 import React from "react";
 import "../../assets/styles/style.css";
 import "../../assets/styles/animate.css";
+import Header from '../Header'
 
 function Gallery() {
     return (
 
 <body>
+    <Header />
 
         <div className="container animated fadeInRight">
         <div className="row">

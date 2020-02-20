@@ -1,11 +1,14 @@
 import React from "react";
 import "../../assets/styles/style.css";
 import "../../assets/styles/animate.css";
+import Header from '../Header'
 
 function About() {
 
     return (
 <body>
+
+    <Header />
 
     <div className="container animated fadeInLeft">
         <div className="row">
