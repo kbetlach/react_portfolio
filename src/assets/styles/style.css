@@ -115,10 +115,6 @@ h3 {
     border-radius: 25px;
 }
 
-.form {
-    padding-top: 10px;
-}
-
 .card-footer {
     margin-top: 225px;
     flex-shrink: 0;
@@ -129,51 +125,14 @@ h3 {
     color: #ffffff;
 }
 
-#linked {
+#git, #linked {
     position: relative;
-    left: 600px;
+    left: 25px;
     margin: 15px;
     color: darkslategray;
 }
 
-#git {
-    position: relative;
-    left: 600px;
-    margin: 15px;
-    color: darkslategray;
-}
-
-#ffdb {
-    height: 250px;
-    border: 1px solid darkslategray;
-    border-radius: 25px;
-}
-
-#weather {
-    height: 250px;
-    border: 1px solid darkslategray;
-    border-radius: 25px;
-}
-
-#password {
-    height: 250px;
-    border: 1px solid darkslategray;
-    border-radius: 25px;
-}
-
-#burger {
-    height: 250px;
-    border: 1px solid darkslategray;
-    border-radius: 25px;
-}
-
-#msts {
-    height: 250px;
-    border: 1px solid darkslategray;
-    border-radius: 25px;
-}
-
-#lotr {
+#ffdb, #weather, #password, #burger, #msts, #lotr {
     height: 250px;
     border: 1px solid darkslategray;
     border-radius: 25px;
