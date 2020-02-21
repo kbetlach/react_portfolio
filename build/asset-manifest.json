@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.fd5df35b.chunk.css",
+    "main.js": "/static/js/main.81fe32cb.chunk.js",
+    "main.js.map": "/static/js/main.81fe32cb.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.107bb8ca.js",
+    "runtime-main.js.map": "/static/js/runtime-main.107bb8ca.js.map",
+    "static/js/2.060ef4a0.chunk.js": "/static/js/2.060ef4a0.chunk.js",
+    "static/js/2.060ef4a0.chunk.js.map": "/static/js/2.060ef4a0.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.b7ac9c2370705ea18b1c112397c6897c.js": "/precache-manifest.b7ac9c2370705ea18b1c112397c6897c.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.fd5df35b.chunk.css.map": "/static/css/main.fd5df35b.chunk.css.map",
+    "static/js/2.060ef4a0.chunk.js.LICENSE.txt": "/static/js/2.060ef4a0.chunk.js.LICENSE.txt",
+    "static/media/burger.jpg": "/static/media/burger.64b84dd0.jpg",
+    "static/media/ffdb.jpg": "/static/media/ffdb.b399b273.jpg",
+    "static/media/style.css": "/static/media/full-bloom.c614347a.png",
+    "static/media/kyle.jpg": "/static/media/kyle.a67c06d3.jpg",
+    "static/media/lotr.jpg": "/static/media/lotr.348742d4.jpg",
+    "static/media/msts.jpg": "/static/media/msts.03cf5c26.jpg",
+    "static/media/password.jpg": "/static/media/password.29fd9407.jpg",
+    "static/media/weather.jpg": "/static/media/weather.5fb94993.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.107bb8ca.js",
+    "static/js/2.060ef4a0.chunk.js",
+    "static/css/main.fd5df35b.chunk.css",
+    "static/js/main.81fe32cb.chunk.js"
+  ]
+}

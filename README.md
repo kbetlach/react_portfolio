@@ -1,68 +1,44 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# React Portfolio
 
-## Available Scripts
+Deployed link: (http://kylebetlach.surge.sh/)
 
-In the project directory, you can run:
+<img width="1098" alt="portfolio" src="https://user-images.githubusercontent.com/53587397/75060308-36dc5300-54a4-11ea-874f-f05183e104c2.png">
 
-### `npm start`
+## Introduction
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+This portfolio is a conversion of my existing professional portfolio into a React.js format. 
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+There is a splash page the user lands on, and they can choose to view the About Me, Portfolio Gallery, or Contact sections by a simple click of the corresponding button. 
 
-### `npm test`
+The About Me section is aptly named, and the user can read basic information about myself. In the Gallery, the user can see screenshots of selected coding projects completed by me, with links to the deployed applications and the GitHub code repositories. In the Contact section, the user can see a list of ways to get in touch with me.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Technologies
 
-### `npm run build`
+- React.js
+- HTML5 / CSS / JavaScript
+- Bootstrap
+- Font Awesome
+- Google Fonts
+- Animate.CSS
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Launch
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+Nothing too fancy! Simply open it up with your favorite web browser to view it!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Status
 
-### `npm run eject`
+The portfolio, for now, is complete. The idea is that it will evolve over time as more projects are completed and ready to be staged in the gallery.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Check back in the future to see what projects I've added to keep up with what I'm doing!
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Sources and Inspiration
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+I really enjoy updating this page. It's fun and satsifying to show off things I've worked on, and as someone who really likes design, it's good practice to play with the portfolio and get it to a place I'm happy with.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Converting my existing portfolio into React.js was also good practice, forcing me into thinking about modularizing different components and then connecting them all via routing. I had to think through excluding the Header component from the splash Index page because having two sets of the same buttons would be redundant.
+   
+Here's my current App.js setup:
 
-## Learn More
+![code](https://user-images.githubusercontent.com/53587397/75060328-40fe5180-54a4-11ea-861c-98608c723ffe.png)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+The Header is excluded here, and is instead imported on the About Me, Gallery, and Contact sections as a workaround. React.js helps streamline a lot of things, but has definitely forced me into re-thinking what was previously quite simple.
