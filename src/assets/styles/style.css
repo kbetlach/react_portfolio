@@ -59,11 +59,20 @@ h3 {
 
 .nav-item {
     position: relative;
-    left: 550px;
+    left: 400px;
+    bottom: -10px;
     padding: 15px;
     color: darkslategray;
     font-family: 'Nanum Gothic', sans-serif;
     font-size: 18px;
+}
+
+#git, #linked {
+    position: relative;
+    bottom: 10px;
+    left: 0px;
+    margin: 15px;
+    color: darkslategray;
 }
 
 .navbar-brand {
@@ -123,13 +132,6 @@ h3 {
     border-top: 8px solid darkgray;
     background-color: darkslategray;
     color: #ffffff;
-}
-
-#git, #linked {
-    position: relative;
-    left: 25px;
-    margin: 15px;
-    color: darkslategray;
 }
 
 #ffdb, #weather, #password, #burger, #msts, #lotr {

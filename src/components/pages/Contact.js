@@ -1,7 +1,8 @@
 import React from "react";
 import "../../assets/styles/style.css";
 import "../../assets/styles/animate.css";
-import Header from '../Header'
+import Header from '../Header';
+import PDF from '../../resume.pdf';
 
 function Contact() {
 
@@ -29,7 +30,7 @@ function Contact() {
 
             <p><strong><a href="https://github.com/kbetlach" target="_blank" rel="noopener noreferrer">GitHub <i className="fab fa-github"></i></a></strong></p>
 
-            <p><strong><a href="assets/resume.pdf" target="_blank">Resume <i className="fas fa-file"></i></a></strong></p>
+            <p><strong><a href={PDF} target="_blank" rel="noopener noreferrer">Resume <i className="fas fa-file"></i></a></strong></p>
 
             <br />
 
